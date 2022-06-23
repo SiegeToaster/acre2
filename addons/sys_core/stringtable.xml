@@ -521,6 +521,53 @@
             <Italian>Rilevamento Voce IA</Italian>
             <Turkish>Yapay Zeka Ses Fark Etmesi</Turkish>
         </Key>
+        <Key ID="STR_ACRE_sys_core_spatializationSettings_displayName">
+            <English>Spatialization Settings</English>
+            <German>räumliche Anordnung</German>
+        </Key>
+        <Key ID="STR_ACRE_sys_core_spatializationTooltip_displayName">
+            <English>"Left" to set radio to left ear, "Both" to set radio to both ears, and "Right" to set radio to right ear.</English>
+            <German>"Linke" um das Radio auf das linke Ohr verbindung. "Beide" um das Radio auf das Beide Ohr verbindung. "Rechts" um das Radio auf das Rechte Ohr Verbindung.</German>
+        </Key>
+        <Key ID="STR_ACRE_sys_core_PRC343_displayName">
+            <English>AN/PRC-343</English>
+        </Key>
+        <Key ID="STR_ACRE_sys_core_PRC152_displayName">
+            <English>AN/PRC-152</English>
+        </Key>
+        <Key ID="STR_ACRE_sys_core_PRC148_displayName">
+            <English>AN/PRC-148</English>
+        </Key>
+        <Key ID="STR_ACRE_sys_core_PRC117F_displayName">
+            <English>AN/PRC-117F</English>
+        </Key>
+        <Key ID="STR_ACRE_sys_core_PRC77_displayName">
+            <English>AN/PRC-77</English>
+        </Key>
+        <Key ID="STR_ACRE_sys_core_SEM52SL_displayName">
+            <English>SEM 52 SL</English>
+        </Key>
+        <Key ID="STR_ACRE_sys_core_SEM70_displayName">
+            <English>SEM 70</English>
+        </Key>
+        <Key ID="STR_ACRE_sys_core_BF888S_displayName">
+            <English>BF-888S</English>
+        </Key>
+        <Key ID="STR_ACRE_sys_core_VRC64_displayName">
+            <English>AN/VRC-64</English>
+        </Key>
+        <Key ID="STR_ACRE_sys_core_VRC103_displayName">
+            <English>AN/VRC-103</English>
+        </Key>
+        <Key ID="STR_ACRE_sys_core_VRC110_displayName">
+            <English>AN/VRC-110</English>
+        </Key>
+        <Key ID="STR_ACRE_sys_core_VRC111_displayName">
+            <English>AN/VRC-111</English>
+        </Key>
+        <Key ID="STR_ACRE_sys_core_SEM90_displayName">
+            <English>SEM90</English>
+        </Key>
         <Key ID="STR_ACRE_sys_core_switchRadioEarLeft">
             <English>Set to Left Ear</English>
             <Spanish>Usar auricular izquierdo</Spanish>

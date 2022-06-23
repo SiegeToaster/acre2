@@ -23,3 +23,14 @@
 #define NEAR_RADIO_RANGE 150
 
 #define ZEUS_INTERFACE_DISPLAY 312
+
+#define CONCAT_2(var1,var2) var1####var2
+
+#define SPATIALIZATION_SETTINGS_VALUE_INFO [[-1, 0, 1], ["Left", "Both", "Right"], 1]
+#define SPATIALIZATION_SETTINGS(RADIO) [\
+QGVAR(CONCAT_2(spatializationZone,RADIO)),\
+"LIST",\
+[LSTRING(CONCAT_2(RADIO,_displayName)), localize LSTRING(spatializationTooltip_displayName)],\
+["ACRE2", localize LSTRING(spatializationSettings_displayName)],\
+SPATIALIZATION_SETTINGS_VALUE_INFO,\
+false] call CBA_fnc_addSetting
